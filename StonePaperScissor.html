@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My 1st Game</title>
+    <link rel="stylesheet" href="StonePaperScissor.css">
+</head>
+<body>
+    <h1>Stone Paper Scissors Game</h1>
+    <button class="click" onclick="doTheWork('Stone')"><img src="Stone.jpg" alt="Image of Stone" class="image"></button>
+    <button  class="click" onclick="doTheWork('Paper')" ><img src="Paper.jpg" alt="Image of paper" class="image"></button>
+    <button  class="click" onclick="doTheWork('Scissors')"><img src="Scissors.jpg" alt="Image of scissors" class="image"></button>
+    <script src="StonePaperScissor.js"></script>
+    <br>
+    <p class="cap">STONE PAPER SCISSORS</p>
+    <button onclick="resetButton()">RESET</button>
+    <h3 class="user"></h3>
+    <h3 class="comp"></h3>
+    <h3 class="outcome"></h3>
+    <h3 class="score"></h3>
+</body>
+</html>

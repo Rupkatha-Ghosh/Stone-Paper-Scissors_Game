@@ -1,0 +1,35 @@
+h1{
+    color: blueviolet;
+    text-transform: uppercase;
+    text-emphasis: 3px ;
+    text-align: center;
+    text-decoration: underline wavy purple;
+}
+button{
+    cursor: pointer;
+}
+button:active{
+    cursor: grab;
+}
+.click{
+    background-color: white;
+    border-radius: 20px;
+    margin: 35px;
+}
+.image{
+    height: 180px;
+    width: 230px;
+    text-align: center;
+}
+.cap{
+    color: darkblue;
+    text-align: center;
+    word-spacing: 275px;
+}
+.outcome{
+    color:crimson
+}
+*{
+    padding: 5px;
+    text-align: center;
+}
